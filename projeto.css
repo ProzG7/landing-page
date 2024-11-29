@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(oculos2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    background: #000000; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    
+    background: black;
+}
+
+.oculos{
+    width: 20%;
+    height: 2%;
+
+
+
+
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+.cta-button {
+    background: #FF4500; /* Laranja */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contato {
+    background: rgba(0, 0, 0, 0.904);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    max-width:100%;
+    margin-top: 300px;
+}
+
+#contato form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contato input, #contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#contato button {
+    background: #FF4500; /* Laranja */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    max-width: 61%;
+}
+
